@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  height: 50dvh;
+  width: 30dvw;
+  margin: 20rem auto 0 auto;
+  background-color: rgba(238, 238, 238, 0.6);
+  border-radius: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.5rem 3rem;
+  border: 3px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.8);
+}
+
+.btn:active {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.8);
+  transform: translateY(0.2rem);
+}
+
+.btn--primary {
+  background-color: #f4f02f;
+  color: #000;
+}
+
+.btn--secondary {
+  background-color: #13044f;
+  color: #fff;
+}
+
+.type {
+  font-size: 2rem;
+  font-weight: 800;
+}
